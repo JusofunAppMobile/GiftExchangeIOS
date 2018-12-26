@@ -1,0 +1,41 @@
+platform :ios, '8.0'
+
+target 'GiftExchange’ do
+
+
+# https://github.com/AFNetworking/AFNetworking.git
+pod 'AFNetworking', '~> 3.1.0'
+
+#键盘管理 https://github.com/hackiftekhar/IQKeyboardManager
+pod 'IQKeyboardManager', '~> 4.0.10'
+
+#  https://github.com/cloudkite/Masonry.git
+pod 'Masonry', '~> 1.0.2’
+
+#  图片请求 https://github.com/rs/SDWebImage.git
+pod 'SDWebImage', '~> 4.0.0’
+
+# https://github.com/CoderMJLee/MJRefresh.git
+pod 'MJRefresh', '~> 3.1.12’
+
+# https://github.com/matej/MBProgressHUD.git
+pod 'MBProgressHUD', '~> 1.0.0’
+
+#  https://github.com/CoderMJLee/MJExtension.git
+pod 'MJExtension', '~> 3.0.13’
+
+
+# 圆角 https://github.com/raozhizhen/JMRoundedCorner.git
+pod 'JMRoundedCorner', '~> 1.2.1'
+
+
+# 高德地图无IDFA定位
+pod 'AMapLocation-NO-IDFA'
+
+ # 缓存  https://github.com/jidibingren/JKDBModel.git
+ pod 'JKDBModel-JDBR', '~> 0.0.1'
+
+# 友盟 http://dev.umeng.com/analytics/ios/quick-start
+pod 'UMengAnalytics-NO-IDFA', '~> 4.1.1'
+
+end
